@@ -2,10 +2,10 @@
 This paper "MDFA-Net: Multiscale dual-path feature aggregation network for cardiac segmentation on Multi-sequence Cardiac MR" has been accepted by Knowledge-Based Systems. If you want to use this code, please cite this paper.https://www.sciencedirect.com/science/article/pii/S0950705121000393
 
 # Data 
-The data are provided by the organizer of the Multi-sequence Cardiac MR Segmentation Challenge (MS-CMRSeg 2019) in conjunction with 2019 Medical Image Computing and Computer Assisted Interventions (MICCAI). We also conducted external validation experimnets on the data of 2020 MICCAI myocardial pathology segmentation challenge (MyoPS 2020).  You can download data from http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/ and http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/data1.html
+The data are provided by the organizer of the Multi-sequence Cardiac MR Segmentation Challenge (MS-CMRSeg 2019) in conjunction with 2019 Medical Image Computing and Computer Assisted Interventions (MICCAI). We also conducted external validation experimnets on the data of 2020 MICCAI myocardial pathology segmentation challenge (MyoPS 2020).  You can download data1 from http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/ and data2 http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/data1.html
 
 # Requirements
-python	3.7.9	\n
+python	3.7.9	
 keras	2.2.4	
 tensorflow-gpu	1.13.1
 jieba	0.42.1	
@@ -28,6 +28,9 @@ Train_network.py   Train network(after Data_preprocess.py).
 predict time.py   Compute prediction time.
 Predict.py   Predict model (get test result).
 Metrics.py   All metrics are used in this paper.
+External_validation_train.py  
+External_validation_prediction.py
+compute_metrics.py   Compute test result metrics.
 
 
 
