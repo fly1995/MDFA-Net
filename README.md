@@ -5,7 +5,7 @@ This paper "MDFA-Net: Multiscale dual-path feature aggregation network for cardi
 The data are provided by the organizer of the Multi-sequence Cardiac MR Segmentation Challenge (MS-CMRSeg 2019) in conjunction with 2019 Medical Image Computing and Computer Assisted Interventions (MICCAI). We also conducted external validation experimnets on the data of 2020 MICCAI myocardial pathology segmentation challenge (MyoPS 2020).  You can download data from http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mscmrseg19/ and http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/myops20/data1.html
 
 # Requirements
-python	3.7.9	
+python	3.7.9	\n
 keras	2.2.4	
 tensorflow-gpu	1.13.1
 jieba	0.42.1	
