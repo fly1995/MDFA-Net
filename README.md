@@ -14,23 +14,23 @@ nibabel	3.2.0
 numpy	1.19.2	  
 opencv-python	4.4.0.44	  
 pandas	1.2.0	  
-pillow	8.0.1	  
-scikit-image	0.17.2	
-scikit-learn	0.23.2	
-scipy	1.5.3	
-simpleitk	2.0.1	
+pillow	8.0.1	    
+scikit-image	0.17.2	  
+scikit-learn	0.23.2  	
+scipy	1.5.3  	
+simpleitk	2.0.1	  
 
 # To run the experiments
-Data_format_conversion.py  You can transform jpg to npy, nii to npy, npy tp jpg, npy tp mat.
-Data_preprocess.py   You can propocess the data step by step according to this file. Including augmentation.
-Network.py   All network are compared in this paper.
-Train_network.py   Train network(after Data_preprocess.py).
-predict time.py   Compute prediction time.
-Predict.py   Predict model (get test result).
-Metrics.py   All metrics are used in this paper.
-External_validation_train.py  
-External_validation_prediction.py
-compute_metrics.py   Compute test result metrics.
+Data_format_conversion.py  You can transform jpg to npy, nii to npy, npy tp jpg, npy tp mat.  
+Data_preprocess.py   You can propocess the data step by step according to this file. Including augmentation.  
+Network.py   All network are compared in this paper.  
+Train_network.py   Train network(after Data_preprocess.py).  
+predict time.py   Compute prediction time.  
+Predict.py   Predict model (get test result).  
+Metrics.py   All metrics are used in this paper.  
+External_validation_train.py    
+External_validation_prediction.py  
+compute_metrics.py   Compute test result metrics.  
 
 
 
